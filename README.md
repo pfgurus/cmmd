@@ -8,7 +8,12 @@ This implementation has been adapted from this [codebase](https://github.com/say
 
 Do the following steps to install this package"
 
-1. Install this package using pip:
+1. Make sure you have installed the following packages:
+   - torch
+   - torchvision
+   Use [official PyTorch installation guide](https://pytorch.org/get-started/locally/) to install PyTorch.
+
+2. Install this package using pip:
    ```bash
    pip install git+https://github.com/pfgurus/cmmd
    ```
