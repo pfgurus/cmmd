@@ -6,7 +6,7 @@ This implementation has been adapted from this [codebase](https://github.com/say
 
 ## Installation
 
-Do the following steps to install this package"
+Do the following steps to install this package
 
 1. Make sure you have installed the following packages:
    - torch
