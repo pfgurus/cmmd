@@ -23,7 +23,7 @@ Do the following steps to install this package
    clone this repository and install it using pip:
    ```bash
     cd path/to/this/repo
-    pip install -e .
+    pip install .
     ```
 
 ## Usage
