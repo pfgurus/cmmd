@@ -26,7 +26,19 @@ Do the following steps to install this package"
     ```
 
 ## Usage
-See examples/cmmd_test.py
+```python
+import cmmd
+
+cmmd_metric = cmmd.CMMD(device=device)
+
+# compute real and fake embeddings given batch of real and fake image tensors
+cmmd_metric.update(real_image, kind='real')
+cmmd_metric.update(genreated_image, kind='fake')
+
+cmmd_value = cmmd_metric.compute().item()
+```
+
+See examples/cmmd_test.py for more.
 
 ## Changes from original
 - Uniform batch compute to ensure optimal performance
