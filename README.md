@@ -28,3 +28,8 @@ Do the following steps to install this package"
 ## Usage
 See examples/cmmd_test.py
 
+## Changes from original
+- Uniform batch compute to ensure optimal performance
+- Use of FP16 version for the ViT model to compute embedddings
+- Use of SDPA implementation for attention module.
+
