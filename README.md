@@ -11,6 +11,7 @@ Do the following steps to install this package"
 1. Make sure you have installed the following packages:
    - torch
    - torchvision
+   
    Use [official PyTorch installation guide](https://pytorch.org/get-started/locally/) to install PyTorch.
 
 2. Install this package using pip:
